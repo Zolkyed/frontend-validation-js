@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.conteneur {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #fdfbfb;
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.controle-form {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+.reclamationQuestions input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+input:not(:placeholder-shown) {
+  background-color: #e8f0fe;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.rectangle {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.rectangle .top {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.prix {
+  font-size: 18px;
+}
+
+.reclamationQuestions {
+  display: none;
+}
+
+.controle-form label {
+  display: block;
+  margin-top: 10px;
+  color: #666;
+}
+
+.erreur {
+  color: #d9534f;
+  margin-top: 5px;
+}
+
+.erreur input,
+.erreur select {
+  border-color: #d9534f;
+}
+
+.succes input,
+.succes select {
+  border-color: #5cb85c;
+}
